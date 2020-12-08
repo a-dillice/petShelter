@@ -1,0 +1,160 @@
+:root{
+    --txt-color:#fff;
+    --footer-bg-color:#000;
+}
+
+.footer, .footer *{
+    box-sizing:border-box;
+}
+
+.footer{
+    background-color:var(--footer-bg-color);
+    color:var(--txt-color);
+    width:100%;
+}
+
+.footerContent{
+    width:100%;
+    padding:10px;
+}
+
+.footerCopyHeader, .footerCopy{
+    text-align:center;
+    margin:0 auto;
+    padding:30px 20px 5px 20px;
+    display:block;
+    max-width:525px;
+    width:90%;
+}
+
+.footerCopy{
+    padding-top:4px;
+}
+
+.footerCopyHeaderP{
+    padding-bottom:0;
+}
+
+.subscribeForm{
+    display:flex;
+    position:relative;
+    flex-direction:column;
+    max-width:320px;
+    margin:20px auto 10px auto;
+    width:100%;
+    z-index:1;
+}
+
+.subscribeInput{
+    box-shadow:none !important;
+    border:1px solid #ccc;
+    padding:16px 10px 10px 10px;
+    margin:0 0 3px 0;
+    font-size:0.9rem;
+    height:45px;
+}
+
+.subscribeLabel{
+    position:absolute;
+    transition: all 0.3s ease;
+    text-transform:uppercase;
+    color:#7d7d7d;
+    z-index:2;
+    left:10px;
+    top:11px;
+}
+
+#inputId:focus + .subscribeLabel,
+#inputId:valid + .subscribeLabel{
+    font-size:10px;
+    color:#ccc;
+    top:4px;
+}
+
+.subscribeBttn{
+    transition:all 0.3s ease;
+    border:1px solid #fff;
+    background-color:transparent;
+    color:#fff;
+}
+
+.subscribeBttn:hover{
+    background-color:#fff;
+    color:#000;
+}
+
+.footerList{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    list-style:none;
+    width:100%;
+    padding:0;
+    margin:0;
+}
+
+.footerLinksWrapper{
+    text-align:center;
+}
+
+.footerLinks{
+    transition:all 0.3s ease;
+    text-decoration:none;
+    display:block;
+    padding:10px;
+    color:#fff;
+}
+
+.footerIcons{
+    text-align:center;
+    font-size:34px;
+    display:block;
+    padding:10px;
+    color:#fff;
+}
+
+.footerLinks:hover, .footerIcons:hover{
+    color:inherit;
+    text-decoration:none;
+    opacity:0.5;
+}
+
+.facebookIcon{
+    color:#1877f2;
+}
+
+.youtubeIcon{
+    color:#ff0000;
+}
+
+.twitterIcon{
+    color:#1da1f2;
+}
+
+.copyright{
+    color:#3c3c3c;
+    text-align:center;
+    font-size:10px;
+    width:100%;
+}
+
+.emailError{
+    border-bottom:3px solid #cc0000;
+}
+
+@media screen and (max-width:500px){
+    
+    .footerLinksWrapper{
+        flex-direction:column;
+    }
+
+    .footerLinks{
+        padding:5px 10px 0 10px;
+    }
+
+    .footerIcons{
+        margin-top:15px;
+    }
+
+}

@@ -1,0 +1,137 @@
+.appWrapper{
+    position:relative;
+    width:100%;
+}
+
+.aboutUsWrapper{
+    max-width:960px;
+}
+
+.wrapper{
+    margin:15px auto;
+    padding:20px;
+    width:100%;
+}
+
+.petProfile{
+    padding:10px 0;
+    border-radius:10px;
+    max-width:550px;
+    display:block;
+    width:100%;
+}
+
+.adoptButtonWrapper{
+    text-align:right;
+    width:100%;
+}
+
+.adoptButton{
+    border:1px solid #ff6a84;
+    background-color:transparent;
+    text-transform:capitalize;
+    color:#ff6a84;
+    cursor:pointer;
+}
+
+.adoptButton::before{
+    padding-right:4px !important;
+}
+
+.adoptButton:hover{
+    border:1px solid #ff6a84;
+    background-color:#f78b9e;
+    color:#fff;
+}
+
+.editBttnWrapper{
+    border-bottom:0 !important;
+    border-right:0 !important;
+    border-left:0 !important;
+    padding-top:10px !important;
+    padding-right:0 !important;
+    padding-left:0 !important;
+}
+
+.editButton{
+    border:1px solid #17a2b8;
+    background-color:transparent;
+    text-transform:capitalize;
+    padding:0.575rem 1.75rem;
+    border-radius:0.25rem;   
+    text-decoration:none !important;
+    text-align:center;
+    display:inline-block;
+    color:#17a2b8;
+    cursor:pointer;
+}
+
+.editButton:hover{
+    background-color:#17a2b8;
+    color:#fff; 
+}
+
+.formHeader{
+    text-transform:capitalize;
+    font-size: 1.5rem;
+    color:#6a6a6a;
+}
+
+.formLabel{
+    text-transform:capitalize;
+}
+
+.listBttns{
+    width:48%;
+    margin:0 1%;
+}
+
+.showHeader{
+    border-top:0 !important;
+    border-left:0 !important;
+    border-right:0 !important;
+}
+
+.aboutUsHeader, .showName{
+    text-transform:capitalize;
+    color:#626262;
+}
+
+.showDetails{
+    font-weight:bold;
+    padding-right:10px;
+    display:block;
+}
+
+.skillList{
+    list-style-type:decimal;
+    color:#626262;
+    font-size:13px;
+    margin-bottom:6px;
+}
+
+.aboutUsSeperator{
+    display:flex;
+    list-style:none;
+    justify-content:space-evenly;
+    width:100%;
+    margin:40px 0;
+    padding:0;
+}
+
+.aboutUsSeperator li i{
+    font-size:3rem;
+    color:#f2f2f2;
+}
+
+@media screen and (max-width:560px){
+
+    .aboutUsHeader, .showHeader{
+        text-align:center;
+    }
+
+    .adoptButton, .editButton{
+        margin:0 auto;
+        width:100%;
+    }   
+}

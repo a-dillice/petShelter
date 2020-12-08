@@ -1,0 +1,64 @@
+@font-face {
+font-family:'Titillium Web';
+src:url('./fonts/TitilliumWeb-Regular.eot');
+src:url('./fonts/TitilliumWeb-Regular.svg') format('svg'),
+    url('./fonts/TitilliumWeb-Regular.eot') format('embedded-opentype'),
+    url('./fonts/TitilliumWeb-Regular.woff2') format('woff2'),
+    url('./fonts/TitilliumWeb-Regular.woff') format('woff'),
+    url('./fonts/TitilliumWeb-Regular.ttf')  format('truetype');
+}
+
+@font-face {
+font-family:'Titillium Web';
+src:url('./fonts/TitilliumWeb-Bold.eot');
+src:url('./fonts/TitilliumWeb-Bold.svg') format('svg'),
+    url('./fonts/TitilliumWeb-Bold.eot') format('embedded-opentype'),
+    url('./fonts/TitilliumWeb-Bold.woff2') format('woff2'),
+    url('./fonts/TitilliumWeb-Bold.woff') format('woff'),
+    url('./fonts/TitilliumWeb-Bold.ttf')  format('truetype');
+font-weight:bold;
+}
+
+@font-face {
+font-family:'Titillium Web';
+src:url('./fonts/TitilliumWeb-Italic.eot');
+src:url('./fonts/TitilliumWeb-Italic.svg') format('svg'),
+    url('./fonts/TitilliumWeb-Italic.eot') format('embedded-opentype'),
+    url('./fonts/TitilliumWeb-Italic.woff2') format('woff2'),
+    url('./fonts/TitilliumWeb-Italic.woff') format('woff'),
+    url('./fonts/TitilliumWeb-Italic.ttf')  format('truetype');
+font-style:italic;
+}
+
+@font-face {
+font-family:'Titillium Web';
+src:url('./fonts/TitilliumWeb-BoldItalic.eot');
+src:url('./fonts/TitilliumWeb-BoldItalic.svg') format('svg'),
+    url('./fonts/TitilliumWeb-BoldItalic.eot') format('embedded-opentype'),
+    url('./fonts/TitilliumWeb-BoldItalic.woff2') format('woff2'),
+    url('./fonts/TitilliumWeb-BoldItalic.woff') format('woff'),
+    url('./fonts/TitilliumWeb-BoldItalic.ttf')  format('truetype');
+font-weight:bold;
+font-style:italic;
+}
+
+.App{
+font-family:'Titillium Web', sans-serif;
+text-rendering:optimizeLegibility !important;
+-webkit-font-smoothing:antialiased !important;
+}
+
+.tubeBttn{
+    background-color:#cc0000 !important;
+    border-color:#cc0000 !important;
+}
+
+.tubeBttn, .tubeIcon{
+    margin:5px;
+}
+
+.tubeBttn:hover{
+    background-color:#880000 !important;
+    border-color:#a10000 !important;
+    color:#fff !important;
+}
